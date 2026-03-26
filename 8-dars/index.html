@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <h1>Interactive To-DO List</h1>
+
+        <div class="task1">
+            <div class="head">
+            <p class="task">Task 1</p>
+            <span class="status">pending</span>
+
+            </div>
+            <p class="desc">Description for Task 1</p>
+            <button class="del">Delete</button>
+        </div>
+
+        
+        <div class="task2">
+            <div class="head">
+            <p class="task">Task 2</p>
+            <span class="status2">in progress</span>
+
+            </div>
+            <p class="desc">Description for Task 2</p>
+            <button class="del">Delete</button>
+        </div>
+
+        
+        <div class="task3">
+            <div class="head">
+            <p class="task">Task 3</p>
+            <span class="status3">completed</span>
+
+            </div>
+            <p class="desc">Description for Task 3</p>
+            <button class="del">Delete</button>
+        </div>
+
+        
+        <button class="addtask">Add task</button>
+
+        
+    </div>
+
+<div class="section2">
+
+    <div class="modalContent">
+    <h2 class="titleAdd">Add task</h2>
+
+    <input type="text" id="tasktitle" placeholder="Task title">
+    <textarea id="taskdesc" placeholder="Task Description"></textarea>
+    
+    <select id="taskStatus">
+        <option value="pending">Pending</option>
+        <option value="in progress">In progress</option>
+        <option value="completed">Completed</option>
+    </select>
+
+    <button class="saveBtn" id="savetask">Save Task</button>
+    <button class="closeBtn" id="close">Close</button>
+
+</div>
+</div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>

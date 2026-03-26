@@ -37,10 +37,11 @@
 
 // challange 3
 
-// myColor = ["Red", "Green", "Whitte", "Black"];
-// let colors = myColor.join(",");
+//  myColor = ["Red", "Green", "White", "Black"];
+//  let colors = myColor.join(",");
 
-// console.log(colors)
+//  console.log(colors)
+
 
 // challange 4
 
@@ -103,44 +104,44 @@
 // console.log(result)
 
 
-// challange 8
-let color = ["Blue", "Green", "Red", "Orange", "Violet", "Indigo", "Yellow"]
-let o = ["th","st","nd","rd"]
+// // challange 8
+// let color = ["Blue", "Green", "Red", "Orange", "Violet", "Indigo", "Yellow"]
+// let o = ["th","st","nd","rd"]
 
-for (let i = 0; i < color.length; i++) {
+// for (let i = 0; i < color.length; i++) {
 
-    let number = i + 1
-    let ending = o[0]
+//     let number = i + 1
+//     let ending = o[0]
 
-    if (number == 1) {
-        ending = o[1]
-    }
-    else if (number == 2) {
-        ending = o[2]
-    }
-    else if (number == 3) {
-        ending = o[3]
-    }
+//     if (number == 1) {
+//         ending = o[1]
+//     }
+//     else if (number == 2) {
+//         ending = o[2]
+//     }
+//     else if (number == 3) {
+//         ending = o[3]
+//     }
 
-    console.log(number + ending + " choice is " + color[i])
-}
+//     console.log(number + ending + " choice is " + color[i])
+// }
 
 
-// challange 9
+// // challange 9
 
-let array1 = [1,0,2,3,4]
-let array2 = [3,5,6,7,8,13]
+// let array1 = [1,0,2,3,4]
+// let array2 = [3,5,6,7,8,13]
 
-let result = []
+// let result = []
 
-let maxLength = Math.max(array1.length, array2.length)
+// let maxLength = Math.max(array1.length, array2.length)
 
-for (let i = 0; i < maxLength; i++) {
+// for (let i = 0; i < maxLength; i++) {
 
-    let a = array1[i] || 0
-    let b = array2[i] || 0
+//     let a = array1[i] || 0
+//     let b = array2[i] || 0
 
-    result.push(a + b)
-}
+//     result.push(a + b)
+// }
 
-console.log(result)
+// console.log(result)
